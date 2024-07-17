@@ -2,72 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gradient Background</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Canva+Sans:wght@400;700&display=swap');
-        
-        body {
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(to bottom, #8c52ff, #5ce1e6);
-            font-family: 'Canva Sans', sans-serif;
-            text-align: center;
-            color: black;
-        }
-        
-        h1, h2, h3 {
-            margin: 0;
-        }
-        
-        .text-wrapper {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100%; /* Use 100% instead of 100vh for more flexibility */
-        }
-        
-        h3 {
-            font-size: 16vw; /* Responsive font size */
-            margin-bottom: 0; /* Remove all margins for h3 */
-        }
-        
-        h2 {
-            font-size: 3vw; /* Responsive font size */
-            margin-top: 0; /* Adjusted space above h2 */
-            margin-bottom: 3em;
-        }
-
-        h1 {
-          font-size: 2.5vw; /* Responsive font size */
-          margin-top: 0; /* Adjusted space above h1 */
-          margin-bottom: 2em; /* Adjusted space below h1 */
-      }
-      
-
-        /* Media query for smaller screens */
-        @media (max-width: 768px) {
-            h3 {
-                font-size: 20vw; /* Adjust font size for smaller screens */
-            }
-            h1 {
-                font-size: 3vw; /* Adjust font size for smaller screens */
-            }
-            h2 {
-                font-size: 2vw; /* Adjust font size for smaller screens */
-            }
-        }
-    </style>
+    <title>Welcome to LSWE</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <div class="text-wrapper">
-        <h3>LSWE</h3>
-        <h2>learnsoftwareengineering.com</h2>
-        <h1>..still in development..</h1>
+    
+    <header>
+        <div class="share-button" link = "https://www.learnsoftwareengineering.com">
+            <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+        </div>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img
+                    src="LSWE_Logo.jpg"
+                    alt="Learn Software Engineering"/>
+        </div>
+        <h1>@learn.softwareengineering</h1>
+
+        <a class="tile" href="https://www.youtube.com/@learn.softwareengineering">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -15 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M24,128c0,29.8,3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2s-3.1-47.2-5.4-56.2A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128Z" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/></svg>
+            </div>
+            <p>YouTube</p>
+            <div class="tile-share-button" link="https://www.youtube.com/@learn.softwareengineering">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://www.tiktok.com/@learnsoftwareengineering">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -70 650 650"><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/></svg>
+            </div>
+            <p>TikTok</p>
+            <div class="tile-share-button" link="https://www.tiktok.com/@learnsoftwareengineering">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://www.instagram.com/learn.softwareengineering/">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 -40 550 550"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentcolor" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/></svg>
+            </div>
+            <p>Instagram</p>
+            <div class="tile-share-button" link="https://www.instagram.com/learn.softwareengineering/">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <!--
+        <a class="tile" href="https://bytes.dev/?r=ania">
+            <div class="icon">
+                <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 -1 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" fill="white"></path> </svg>
+            </div>
+            <p>Coding Tips!</p>
+            <div class="tile-share-button" link="https://bytes.dev/?r=ania">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        -->
     </div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
