@@ -1,5 +1,9 @@
-const shareButtons = document.querySelectorAll('.tile-share-button')
-console.log(shareButtons)
+const shareButtonsTile = document.querySelectorAll('.tile-share-button')
+console.log(shareButtonsTile)
+
+const shareButtonPage = document.querySelectorAll('.share-button')
+console.log(shareButtonPage)
+
 
 async function copyText(e) {
 //prevent button going to the site
@@ -14,5 +18,8 @@ async function copyText(e) {
     }
 }
 
-shareButtons.forEach(shareButton =>
-    shareButton.addEventListener('click', copyText))
+shareButtonsTile.forEach(shareButtonTile =>
+    shareButtonTile.addEventListener('click', copyText))
+
+shareButtonPage.forEach(shareButtonPage =>
+    shareButtonPage.addEventListener('click', copyText))
