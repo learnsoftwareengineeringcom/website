@@ -57,7 +57,7 @@ a {
 }
 
 .tile {
-    width: 90%;
+    width: 99%;
     background-color: rgb(37,37,37);
     margin: 7px;
     border-radius: 17px;
@@ -83,11 +83,10 @@ a {
     margin-top: 10px;
 }
 
-
 .image-container {
-    height: 96px;
-    width: 96px;
-    border-radius: 48px;
+    height: 288px;
+    width: 288px;
+    border-radius: 144px;
     overflow: hidden;
 }
 
